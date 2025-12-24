@@ -1,7 +1,117 @@
 <!DOCTYPE html>
-<html>
-  <body>
-    <h1>Hello</h1>
-    <p>My tea shop website</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The One Tea</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fafafa;
+      color: #222;
+    }
+    header {
+      padding: 40px 20px;
+      text-align: center;
+      background: #f3f3f3;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+    header p {
+      margin-top: 10px;
+      color: #666;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    h2 {
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 10px;
+      margin-bottom: 25px;
+    }
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .item {
+      background: #fff;
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+    .item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #777;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>The One Tea</h1>
+  <p>Modern bubble tea & matcha</p>
+</header>
+
+<section>
+  <h2>Milk Tea</h2>
+  <div class="menu">
+    <div class="item">
+      <img src="https://via.placeholder.com/400x300">
+      <h3>Classic Milk Tea</h3>
+    </div>
+    <div class="item">
+      <img src="https://via.placeholder.com/400x300">
+      <h3>Brown Sugar Milk Tea</h3>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Matcha</h2>
+  <div class="menu">
+    <div class="item">
+      <img src="https://via.placeholder.com/400x300">
+      <h3>Strawberry Matcha</h3>
+    </div>
+    <div class="item">
+      <img src="https://via.placeholder.com/400x300">
+      <h3>Matcha Latte</h3>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Fruit Tea</h2>
+  <div class="menu">
+    <div class="item">
+      <img src="https://via.placeholder.com/400x300">
+      <h3>Passionfruit Green Tea</h3>
+    </div>
+    <div class="item">
+      <img src="https://via.placeholder.com/400x300">
+      <h3>Watermelon Lychee</h3>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2025 The One Tea
+</footer>
+
+</body>
 </html>
