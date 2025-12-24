@@ -40,7 +40,12 @@ body {
 
 .hero {
   height: 100vh;
-  background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb);
+  background: linear-gradient(
+    135deg,
+    #f6c1cc,
+    #f3d2c1,
+    #f0e4d7
+  );
   display: flex;
   align-items: center;
   justify-content: center;
@@ -49,6 +54,10 @@ body {
 }
 
 .hero-text h1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
   font-size: 3rem;
   font-weight: 600;
 }
