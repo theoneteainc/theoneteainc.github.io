@@ -23,7 +23,9 @@ body {
   z-index: 1000;
 }
 
-.logo {
+.logo img {
+  height: 38px;
+}
   font-weight: 600;
   letter-spacing: 1px;
 }
